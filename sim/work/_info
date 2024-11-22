@@ -1,0 +1,217 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\uni\term8\core\CA4\code
+vcomparator
+Z1 !s100 PEG1W=ZBB5?612dl<hhc51
+Z2 IoYlQN@eKA^3dQAM2Q9;NG2
+Z3 V1UcnbI@]iGRALnzjiSZ7T2
+Z4 dD:\uni\ava\sim
+Z5 w1732118428
+Z6 8D:/uni/ava/MID/comp.v
+Z7 FD:/uni/ava/MID/comp.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/uni/ava/MID/comp.v|
+Z10 o-work work -O0
+Z11 !s108 1732211226.741000
+Z12 !s107 D:/uni/ava/MID/comp.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcontroller
+!i10b 1
+!s100 bOMka4@6oIc6<]BGRjE9K3
+I^Y1K9HbRQKfcAQ2GkYoHe0
+Z13 VQi?joGgWnnIQ_9bkGg0fE0
+R4
+w1732216850
+Z14 8D:/uni/ava/MID/controller.v
+Z15 FD:/uni/ava/MID/controller.v
+L0 5
+R8
+r1
+!s85 0
+31
+!s108 1732216859.422000
+!s107 D:/uni/ava/MID/controller.v|
+Z16 !s90 -reportprogress|300|-work|work|D:/uni/ava/MID/controller.v|
+!s101 -O0
+R10
+vdatapath
+Z17 IUfNIP0QKYU[;oXA60Un:[3
+Z18 VUWn1X5W8P3d36^O]a;7bk3
+R4
+Z19 w1732216492
+Z20 8D:/uni/ava/MID/datapath.v
+Z21 FD:/uni/ava/MID/datapath.v
+L0 1
+R8
+r1
+31
+Z22 !s90 -reportprogress|300|-work|work|D:/uni/ava/MID/datapath.v|
+R10
+Z23 !s100 geC2NC3@EGMbOPKT9;BPV2
+Z24 !s108 1732216499.785000
+Z25 !s107 D:/uni/ava/MID/datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfixed_point_adder_signed
+Z26 !s100 miYJXY1XDcGdY<1=;d3E>2
+Z27 IoDKR<1H6hE<`LIGT6CPHb3
+Z28 VB3_iMX@0a;m`@[a30aQf=0
+R4
+Z29 w1732118016
+Z30 8D:/uni/ava/MID/adder.v
+Z31 FD:/uni/ava/MID/adder.v
+L0 1
+R8
+r1
+31
+Z32 !s108 1732211226.501000
+Z33 !s107 D:/uni/ava/MID/adder.v|
+Z34 !s90 -reportprogress|300|-work|work|D:/uni/ava/MID/adder.v|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vfixed_point_multiplier_signed
+Z35 !s100 7f9dJ87TBgCDlAV^HhP:d3
+Z36 IjnC7Cl>m=Kzj85A8Y[m0N1
+Z37 VH]4nW<gK5oQSUNok]99bV1
+R4
+Z38 w1732211089
+Z39 8D:/uni/ava/MID/mul.v
+Z40 FD:/uni/ava/MID/mul.v
+L0 1
+R8
+r1
+31
+Z41 !s90 -reportprogress|300|-work|work|D:/uni/ava/MID/mul.v|
+R10
+Z42 !s108 1732211227.390000
+Z43 !s107 D:/uni/ava/MID/mul.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vinput_reg
+Z44 I>42biOPSJGGk0lghWlb@n3
+Z45 V_Hhf3aO3m1=_W2Gd`9^9D0
+R4
+Z46 w1732211218
+Z47 8D:/uni/ava/MID/input_reg.v
+Z48 FD:/uni/ava/MID/input_reg.v
+L0 1
+R8
+r1
+31
+R10
+Z49 !s100 W=Cm5;mN3>Z<zzGd8936J2
+Z50 !s108 1732211227.180000
+Z51 !s107 D:/uni/ava/MID/input_reg.v|
+Z52 !s90 -reportprogress|300|-work|work|D:/uni/ava/MID/input_reg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux_2to1
+Z53 !s100 e0m7LcDGSHYmT29QbnWXz3
+Z54 Id>`X8=Y13O]0cNdGi=V5<3
+Z55 VXG_Egi:NQZF>i1G2U;2`43
+R4
+Z56 w1732108482
+Z57 8D:/uni/ava/MID/mux.v
+Z58 FD:/uni/ava/MID/mux.v
+L0 1
+R8
+r1
+31
+Z59 !s90 -reportprogress|300|-work|work|D:/uni/ava/MID/mux.v|
+R10
+Z60 !s108 1732211227.570000
+Z61 !s107 D:/uni/ava/MID/mux.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vone_adder
+Z62 !s100 neNc9>f0inJ>^m:XG69Dl0
+Z63 IE0C2<i^;QmQSY2CzkHddB1
+Z64 V^?]n72Eo7JYM_bd9bga7>0
+R4
+R29
+R30
+R31
+L0 21
+R8
+r1
+31
+R32
+R33
+R34
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vregister
+Z65 !s100 ^AkbcC`jK6U8TTE9Phn012
+Z66 IFkfUBm;6Bz79Yd:=NK1AV2
+Z67 V[B_NQXKQ]coXN`;gm2_nZ3
+R4
+Z68 w1732211175
+Z69 8D:\uni\ava\MID\rej.v
+Z70 FD:\uni\ava\MID\rej.v
+L0 1
+R8
+r1
+31
+Z71 !s90 -reportprogress|300|-work|work|D:\uni\ava\MID\rej.v|
+R10
+Z72 !s108 1732211227.770000
+Z73 !s107 D:\uni\ava\MID\rej.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtestbench
+Z74 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z75 IW5Gb:fgS_S4S>L`iIcU[L2
+Z76 Vo@Hhg2kL_B=>1B7XC@@3d2
+Z77 !s105 testbench_sv_unit
+S1
+R4
+Z78 w1732216348
+Z79 8D:/uni/ava/tb/testbench.sv
+Z80 FD:/uni/ava/tb/testbench.sv
+L0 7
+R8
+r1
+31
+Z81 !s90 -reportprogress|300|-work|work|-sv|D:/uni/ava/tb/testbench.sv|
+Z82 o-work work -sv -O0
+Z83 !s100 CkTKP4=O0Pb3<>4l=MF;h1
+Z84 !s108 1732216359.970000
+Z85 !s107 D:/uni/ava/tb/testbench.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vtop_module
+Z86 I3amhfQ;1QGebfXKAkH3BH3
+Z87 VSh4lOm`E9J8YMLh=09ZPO3
+R4
+Z88 w1732211865
+Z89 8D:/uni/ava/MID/top_module.v
+Z90 FD:/uni/ava/MID/top_module.v
+L0 1
+R8
+r1
+31
+R10
+Z91 !s100 N0VMXPMVQ?KQ080?eolAF1
+Z92 !s108 1732211870.124000
+Z93 !s107 D:/uni/ava/MID/top_module.v|
+Z94 !s90 -reportprogress|300|-work|work|D:/uni/ava/MID/top_module.v|
+!i10b 1
+!s85 0
+!s101 -O0
