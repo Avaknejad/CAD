@@ -1,11 +1,60 @@
-D:/uni/ava/MID/top_module.v {1 {vlog -work work D:/uni/ava/MID/top_module.v
+D:/uni/ava/CAD/MID/rej.v {1 {vlog -work work D:/uni/ava/CAD/MID/rej.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} D:/uni/ava/CAD/MID/input_reg.v {1 {vlog -work work D:/uni/ava/CAD/MID/input_reg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module input_reg
+
+Top level modules:
+	input_reg
+
+} {} {}} D:/uni/ava/CAD/MID/mux.v {1 {vlog -work work D:/uni/ava/CAD/MID/mux.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux_2to1
+
+Top level modules:
+	mux_2to1
+
+} {} {}} D:/uni/ava/CAD/MID/mul.v {1 {vlog -work work D:/uni/ava/CAD/MID/mul.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fixed_point_multiplier_signed
+
+Top level modules:
+	fixed_point_multiplier_signed
+
+} {} {}} D:/uni/ava/CAD/MID/datapath.v {1 {vlog -work work D:/uni/ava/CAD/MID/datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} D:/uni/ava/CAD/MID/comp.v {1 {vlog -work work D:/uni/ava/CAD/MID/comp.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}} D:/uni/ava/CAD/MID/controller.v {1 {vlog -work work D:/uni/ava/CAD/MID/controller.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} D:/uni/ava/CAD/MID/top_module.v {1 {vlog -work work D:/uni/ava/CAD/MID/top_module.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module top_module
 
 Top level modules:
 	top_module
 
-} {} {}} D:/uni/ava/MID/adder.v {1 {vlog -work work D:/uni/ava/MID/adder.v
+} {} {}} D:/uni/ava/CAD/MID/adder.v {1 {vlog -work work D:/uni/ava/CAD/MID/adder.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module fixed_point_adder_signed
 -- Compiling module one_adder
@@ -13,54 +62,5 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	fixed_point_adder_signed
 	one_adder
-
-} {} {}} D:/uni/ava/MID/rej.v {1 {vlog -work work {D:\uni\ava\MID\rej.v}
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module register
-
-Top level modules:
-	register
-
-} {} {}} D:/uni/ava/MID/input_reg.v {1 {vlog -work work D:/uni/ava/MID/input_reg.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module input_reg
-
-Top level modules:
-	input_reg
-
-} {} {}} D:/uni/ava/MID/mux.v {1 {vlog -work work D:/uni/ava/MID/mux.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module mux_2to1
-
-Top level modules:
-	mux_2to1
-
-} {} {}} D:/uni/ava/MID/mul.v {1 {vlog -work work D:/uni/ava/MID/mul.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module fixed_point_multiplier_signed
-
-Top level modules:
-	fixed_point_multiplier_signed
-
-} {} {}} D:/uni/ava/MID/datapath.v {1 {vlog -work work D:/uni/ava/MID/datapath.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module datapath
-
-Top level modules:
-	datapath
-
-} {} {}} D:/uni/ava/tb/testbench.sv {1 {vlog -work work -sv D:/uni/ava/tb/testbench.sv
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module testbench
-
-Top level modules:
-	testbench
-
-} {} {}} D:/uni/ava/MID/comp.v {1 {vlog -work work D:/uni/ava/MID/comp.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module comparator
-
-Top level modules:
-	comparator
 
 } {} {}}

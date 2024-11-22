@@ -66,7 +66,7 @@ module testbench ();
         n = 0;
         true_ = 0;
         j = 0;
-
+        X=inputs[0];
         ///////////////////////
         clk = 0;
         start = 0;
@@ -92,14 +92,15 @@ module testbench ();
                 #`CLK;
             end
             repeat (N <= 4 ? 3 : 7) #`CLK;
-            rst = 1;
-            #`CLK;
             rst = 0;
+            #`CLK;
+            rst = 1;
             #`CLK;
             n++;
         end
         #`CLK;
         #`CLK;
         $display("%d tests passed successfuly\n",valid_cnt);
+        $stop;
     end
 endmodule

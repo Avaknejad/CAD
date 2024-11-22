@@ -22,7 +22,7 @@ always @(*) begin
     else begin
     case(ps)
         `IDEL: ns = start ? `LOAD : `IDEL;
-        `LOAD: ns = ready ? `CALC : `LOAD;
+        `LOAD: ns = ready ? `LOAD : `LOAD;
         `CALC: ns = `LOAD;
         default : ns = `IDEL;
     endcase
@@ -33,7 +33,7 @@ always @(*) begin
     {flush, load, controller_inuse} = 0;
     case(ps)
         `IDEL: ;
-        `LOAD: controller_inuse = 1;
+        `LOAD: begin controller_inuse = 1; load= (ready) ? 1'b1: 1'b0; end
         `CALC: begin controller_inuse = 1; load=1; end
         default: ;
     endcase

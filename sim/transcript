@@ -1,0 +1,187 @@
+# 0 compiles, 10 failed with no errors. 
+# Compile of adder.v was successful.
+# Compile of comp.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of input_reg.v was successful.
+# Compile of mul.v was successful.
+# Compile of mux.v was successful.
+# Compile of rej.v was successful.
+# Compile of top_module.v was successful.
+# Compile of testbench.sv was successful.
+# 10 compiles, 0 failed with no errors. 
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top_module
+# Loading work.datapath
+# Loading work.input_reg
+# Loading work.mux_2to1
+# Loading work.fixed_point_adder_signed
+# Loading work.fixed_point_multiplier_signed
+# Loading work.register
+# Loading work.one_adder
+# Loading work.comparator
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/testbench/dut/dp/adder1_out \
+sim:/testbench/dut/dp/adder2_out \
+sim:/testbench/dut/dp/adder3_out \
+sim:/testbench/dut/dp/adder4_out \
+sim:/testbench/dut/dp/clk \
+sim:/testbench/dut/dp/cmp_stage1 \
+sim:/testbench/dut/dp/cmp_stage1_out \
+sim:/testbench/dut/dp/cmp_stage2 \
+sim:/testbench/dut/dp/cmp_stage2_out \
+sim:/testbench/dut/dp/cmp_stage3 \
+sim:/testbench/dut/dp/cmp_stage3_out \
+sim:/testbench/dut/dp/cmp_stage4 \
+sim:/testbench/dut/dp/cmp_stage4_out \
+sim:/testbench/dut/dp/controller_inuse \
+sim:/testbench/dut/dp/controller_inuse_input \
+sim:/testbench/dut/dp/flush \
+sim:/testbench/dut/dp/inuse_stage1 \
+sim:/testbench/dut/dp/inuse_stage2 \
+sim:/testbench/dut/dp/inuse_stage3 \
+sim:/testbench/dut/dp/inuse_stage4 \
+sim:/testbench/dut/dp/inuse_stage4_out \
+sim:/testbench/dut/dp/level_stage1 \
+sim:/testbench/dut/dp/level_stage1_plus \
+sim:/testbench/dut/dp/level_stage2 \
+sim:/testbench/dut/dp/level_stage2_plus \
+sim:/testbench/dut/dp/level_stage3 \
+sim:/testbench/dut/dp/level_stage3_plus \
+sim:/testbench/dut/dp/level_stage4 \
+sim:/testbench/dut/dp/level_stage4_out \
+sim:/testbench/dut/dp/level_stage4_plus \
+sim:/testbench/dut/dp/load \
+sim:/testbench/dut/dp/loop_back_stage1 \
+sim:/testbench/dut/dp/loop_back_stage2 \
+sim:/testbench/dut/dp/loop_back_stage3 \
+sim:/testbench/dut/dp/loop_back_stage4 \
+sim:/testbench/dut/dp/loop_back_stage4_out \
+sim:/testbench/dut/dp/loop_stage1 \
+sim:/testbench/dut/dp/loop_stage2 \
+sim:/testbench/dut/dp/loop_stage3 \
+sim:/testbench/dut/dp/loop_stage4 \
+sim:/testbench/dut/dp/loop_stage4_out \
+sim:/testbench/dut/dp/mul1_out \
+sim:/testbench/dut/dp/mul2_out \
+sim:/testbench/dut/dp/mul3_out \
+sim:/testbench/dut/dp/mul4_out \
+sim:/testbench/dut/dp/mul5_out \
+sim:/testbench/dut/dp/mul6_out \
+sim:/testbench/dut/dp/mul7_out \
+sim:/testbench/dut/dp/mul8_out \
+sim:/testbench/dut/dp/mux1_out \
+sim:/testbench/dut/dp/mux2_out \
+sim:/testbench/dut/dp/mux3_out \
+sim:/testbench/dut/dp/mux4_out \
+sim:/testbench/dut/dp/n \
+sim:/testbench/dut/dp/n_input \
+sim:/testbench/dut/dp/ov_flag \
+sim:/testbench/dut/dp/overflow \
+sim:/testbench/dut/dp/per_stage1 \
+sim:/testbench/dut/dp/per_stage2 \
+sim:/testbench/dut/dp/per_stage3 \
+sim:/testbench/dut/dp/per_stage4 \
+sim:/testbench/dut/dp/per_stage4_out \
+sim:/testbench/dut/dp/ready \
+sim:/testbench/dut/dp/result \
+sim:/testbench/dut/dp/rst \
+sim:/testbench/dut/dp/sum_stage1 \
+sim:/testbench/dut/dp/sum_stage2 \
+sim:/testbench/dut/dp/sum_stage3 \
+sim:/testbench/dut/dp/sum_stage4 \
+sim:/testbench/dut/dp/sum_stage4_out \
+sim:/testbench/dut/dp/valid \
+sim:/testbench/dut/dp/valid_stage1 \
+sim:/testbench/dut/dp/valid_stage2 \
+sim:/testbench/dut/dp/valid_stage3 \
+sim:/testbench/dut/dp/valid_stage4 \
+sim:/testbench/dut/dp/x \
+sim:/testbench/dut/dp/x_input \
+sim:/testbench/dut/dp/x_power_stage1 \
+sim:/testbench/dut/dp/x_power_stage2 \
+sim:/testbench/dut/dp/x_power_stage3 \
+sim:/testbench/dut/dp/x_power_stage4 \
+sim:/testbench/dut/dp/x_power_stage4_out \
+sim:/testbench/dut/dp/x_stage1 \
+sim:/testbench/dut/dp/x_stage2 \
+sim:/testbench/dut/dp/x_stage3 \
+sim:/testbench/dut/dp/x_stage4 \
+sim:/testbench/dut/dp/x_stage4_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+#          10 tests passed successfuly
+# 
+# Compile of controller.v was successful.
+restart
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.controller
+run
+run
+run
+run
+run
+restart
+# Loading sv_std.std
+# Loading work.testbench
+# Compile of testbench.sv was successful.
+restart
+# Loading sv_std.std
+# Loading work.testbench
+run
+run
+run
+run
+# Compile of testbench.sv was successful.
+restart
+# Loading sv_std.std
+# Loading work.testbench
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+#          80 tests passed successfuly
+# 
+run
+# Compile of testbench.sv was successful.
+run -all
+restart
+# Loading sv_std.std
+# Loading work.testbench
+run -all
+#          80 tests passed successfuly
+# 
+# Break in Module testbench at D:/uni/ava/CAD/tb/testbench.sv line 104
