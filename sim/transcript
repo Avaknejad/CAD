@@ -1,15 +1,6 @@
-# 0 compiles, 10 failed with no errors. 
-# Compile of adder.v was successful.
-# Compile of comp.v was successful.
-# Compile of controller.v was successful.
-# Compile of datapath.v was successful.
-# Compile of input_reg.v was successful.
-# Compile of mul.v was successful.
-# Compile of mux.v was successful.
-# Compile of rej.v was successful.
-# Compile of top_module.v was successful.
-# Compile of testbench.sv was successful.
-# 10 compiles, 0 failed with no errors. 
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# OpenFile D:/uni/ava/CAD/sim/CAD_MID.mpf 
+# Loading project CAD_MID
 vsim -gui work.testbench
 # vsim -gui work.testbench 
 # Loading sv_std.std
@@ -20,10 +11,21 @@ vsim -gui work.testbench
 # Loading work.mux_2to1
 # Loading work.fixed_point_adder_signed
 # Loading work.fixed_point_multiplier_signed
+# Loading work.fixed_point_multiplier_signed_coef
 # Loading work.register
 # Loading work.one_adder
 # Loading work.comparator
 # Loading work.controller
+# ** Warning: (vsim-3015) D:/uni/ava/CAD/MID/datapath.v(289): [PCDPC] - Port size (24 or 24) does not match connection size (8) for port 'a'. The port definition is at: D:/uni/ava/CAD/MID/mul_coef.v(2).
+# 
+#         Region: /testbench/dut/dp/mul8
+# ** Warning: (vsim-3015) D:/uni/ava/CAD/MID/datapath.v(289): [PCDPC] - Port size (8 or 8) does not match connection size (16) for port 'b'. The port definition is at: D:/uni/ava/CAD/MID/mul_coef.v(3).
+# 
+#         Region: /testbench/dut/dp/mul8
+run -all
+#          80 tests passed successfuly
+# 
+# Break in Module testbench at D:/uni/ava/CAD/tb/testbench.sv line 104
 add wave -position insertpoint  \
 sim:/testbench/dut/dp/adder1_out \
 sim:/testbench/dut/dp/adder2_out \
@@ -112,76 +114,114 @@ sim:/testbench/dut/dp/x_stage2 \
 sim:/testbench/dut/dp/x_stage3 \
 sim:/testbench/dut/dp/x_stage4 \
 sim:/testbench/dut/dp/x_stage4_out
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-#          10 tests passed successfuly
+restart
+# Loading sv_std.std
+# Loading work.testbench
+# ** Warning: (vsim-3015) D:/uni/ava/CAD/MID/datapath.v(289): [PCDPC] - Port size (24 or 24) does not match connection size (8) for port 'a'. The port definition is at: D:/uni/ava/CAD/MID/mul_coef.v(2).
 # 
-# Compile of controller.v was successful.
-restart
-# Loading sv_std.std
-# Loading work.testbench
-# Loading work.controller
-run
-run
-run
-run
-run
-restart
-# Loading sv_std.std
-# Loading work.testbench
-# Compile of testbench.sv was successful.
-restart
-# Loading sv_std.std
-# Loading work.testbench
-run
-run
-run
-run
-# Compile of testbench.sv was successful.
-restart
-# Loading sv_std.std
-# Loading work.testbench
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-#          80 tests passed successfuly
+#         Region: /testbench/dut/dp/mul8
+# ** Warning: (vsim-3015) D:/uni/ava/CAD/MID/datapath.v(289): [PCDPC] - Port size (8 or 8) does not match connection size (16) for port 'b'. The port definition is at: D:/uni/ava/CAD/MID/mul_coef.v(3).
 # 
-run
-# Compile of testbench.sv was successful.
-run -all
-restart
-# Loading sv_std.std
-# Loading work.testbench
+#         Region: /testbench/dut/dp/mul8
 run -all
 #          80 tests passed successfuly
+# 
+# Break in Module testbench at D:/uni/ava/CAD/tb/testbench.sv line 104
+add wave -position insertpoint  \
+sim:/testbench/dut/dp/adder4/a \
+sim:/testbench/dut/dp/adder4/b \
+sim:/testbench/dut/dp/adder4/overflow \
+sim:/testbench/dut/dp/adder4/result \
+sim:/testbench/dut/dp/adder4/sum
+restart
+# Loading sv_std.std
+# Loading work.testbench
+# ** Warning: (vsim-3015) D:/uni/ava/CAD/MID/datapath.v(289): [PCDPC] - Port size (24 or 24) does not match connection size (8) for port 'a'. The port definition is at: D:/uni/ava/CAD/MID/mul_coef.v(2).
+# 
+#         Region: /testbench/dut/dp/mul8
+# ** Warning: (vsim-3015) D:/uni/ava/CAD/MID/datapath.v(289): [PCDPC] - Port size (8 or 8) does not match connection size (16) for port 'b'. The port definition is at: D:/uni/ava/CAD/MID/mul_coef.v(3).
+# 
+#         Region: /testbench/dut/dp/mul8
+run -all
+#          80 tests passed successfuly
+# 
+# Break in Module testbench at D:/uni/ava/CAD/tb/testbench.sv line 104
+add wave -position insertpoint sim:/testbench/dut/dp/mul8/*
+restart
+# Loading sv_std.std
+# Loading work.testbench
+# ** Warning: (vsim-3015) D:/uni/ava/CAD/MID/datapath.v(289): [PCDPC] - Port size (24 or 24) does not match connection size (8) for port 'a'. The port definition is at: D:/uni/ava/CAD/MID/mul_coef.v(2).
+# 
+#         Region: /testbench/dut/dp/mul8
+# ** Warning: (vsim-3015) D:/uni/ava/CAD/MID/datapath.v(289): [PCDPC] - Port size (8 or 8) does not match connection size (16) for port 'b'. The port definition is at: D:/uni/ava/CAD/MID/mul_coef.v(3).
+# 
+#         Region: /testbench/dut/dp/mul8
+run -all
+#          80 tests passed successfuly
+# 
+# Break in Module testbench at D:/uni/ava/CAD/tb/testbench.sv line 104
+add wave -position insertpoint sim:/testbench/dut/dp/reg3/*
+restart
+# Loading sv_std.std
+# Loading work.testbench
+# ** Warning: (vsim-3015) D:/uni/ava/CAD/MID/datapath.v(289): [PCDPC] - Port size (24 or 24) does not match connection size (8) for port 'a'. The port definition is at: D:/uni/ava/CAD/MID/mul_coef.v(2).
+# 
+#         Region: /testbench/dut/dp/mul8
+# ** Warning: (vsim-3015) D:/uni/ava/CAD/MID/datapath.v(289): [PCDPC] - Port size (8 or 8) does not match connection size (16) for port 'b'. The port definition is at: D:/uni/ava/CAD/MID/mul_coef.v(3).
+# 
+#         Region: /testbench/dut/dp/mul8
+run -all
+#          80 tests passed successfuly
+# 
+# Break in Module testbench at D:/uni/ava/CAD/tb/testbench.sv line 104
+restart
+# Compile of datapath.v was successful.
+restart
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.datapath
+# ** Warning: (vsim-3015) D:/uni/ava/CAD/MID/datapath.v(289): [PCDPC] - Port size (8 or 8) does not match connection size (16) for port 'b'. The port definition is at: D:/uni/ava/CAD/MID/mul_coef.v(3).
+# 
+#         Region: /testbench/dut/dp/mul8
+run -all
+#          80 tests passed successfuly
+# 
+# Break in Module testbench at D:/uni/ava/CAD/tb/testbench.sv line 104
+restart
+# Loading sv_std.std
+# Loading work.testbench
+# ** Warning: (vsim-3015) D:/uni/ava/CAD/MID/datapath.v(289): [PCDPC] - Port size (8 or 8) does not match connection size (16) for port 'b'. The port definition is at: D:/uni/ava/CAD/MID/mul_coef.v(3).
+# 
+#         Region: /testbench/dut/dp/mul8
+# Compile of datapath.v was successful.
+restart
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.datapath
+# ** Warning: (vsim-3015) D:/uni/ava/CAD/MID/datapath.v(289): [PCDPC] - Port size (24 or 24) does not match connection size (8) for port 'a'. The port definition is at: D:/uni/ava/CAD/MID/mul_coef.v(2).
+# 
+#         Region: /testbench/dut/dp/mul8
+# ** Warning: (vsim-3015) D:/uni/ava/CAD/MID/datapath.v(289): [PCDPC] - Port size (8 or 8) does not match connection size (16) for port 'b'. The port definition is at: D:/uni/ava/CAD/MID/mul_coef.v(3).
+# 
+#         Region: /testbench/dut/dp/mul8
+run -all
+#          80 tests passed successfuly
+# 
+# Break in Module testbench at D:/uni/ava/CAD/tb/testbench.sv line 104
+# Compile of datapath.v was successful.
+restart
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.datapath
+run -all
+#          80 tests passed successfuly
+# 
+# Break in Module testbench at D:/uni/ava/CAD/tb/testbench.sv line 104
+# Compile of testbench.sv was successful.
+restart
+# Loading sv_std.std
+# Loading work.testbench
+run -all
+#           0 tests passed successfuly
 # 
 # Break in Module testbench at D:/uni/ava/CAD/tb/testbench.sv line 104

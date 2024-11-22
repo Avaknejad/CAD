@@ -7,7 +7,7 @@ entity top_module is
         X               : in     vl_logic_vector(7 downto 0);
         n               : in     vl_logic_vector(2 downto 0);
         start           : in     vl_logic;
-        Y               : out    vl_logic_vector(7 downto 0);
+        Y               : out    vl_logic_vector(31 downto 0);
         valid           : out    vl_logic;
         ready           : out    vl_logic;
         overflow        : out    vl_logic;

@@ -16,7 +16,7 @@ input [7:0] X;
 input [2:0] n;
 
 output valid, ready, overflow, error;
-output [7:0] Y;
+output [31:0] Y;
 
 wire flush,load,controller_inuse;
 datapath dp( .clk(clk),

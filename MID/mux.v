@@ -1,8 +1,8 @@
-module mux_2to1 (
-    input  [7:0] in0, 
-    input  [7:0] in1, 
+module mux_2to1 #(parameter size = 32 ) (
+    input  [size-1:0] in0, 
+    input  [size-1:0] in1, 
     input        sel, 
-    output [7:0] out  
+    output [size-1:0] out  
 );
 
     // Multiplexer logic

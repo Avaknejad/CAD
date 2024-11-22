@@ -1,16 +1,23 @@
-D:/uni/ava/CAD/MID/rej.v {1 {vlog -work work D:/uni/ava/CAD/MID/rej.v
+D:/uni/ava/CAD/MID/input_reg.v {1 {vlog -work work D:/uni/ava/CAD/MID/input_reg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module input_reg
+
+Top level modules:
+	input_reg
+
+} {} {}} D:/uni/ava/CAD/MID/rej.v {1 {vlog -work work D:/uni/ava/CAD/MID/rej.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module register
 
 Top level modules:
 	register
 
-} {} {}} D:/uni/ava/CAD/MID/input_reg.v {1 {vlog -work work D:/uni/ava/CAD/MID/input_reg.v
+} {} {}} D:/uni/ava/CAD/MID/mul.v {1 {vlog -work work D:/uni/ava/CAD/MID/mul.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module input_reg
+-- Compiling module fixed_point_multiplier_signed
 
 Top level modules:
-	input_reg
+	fixed_point_multiplier_signed
 
 } {} {}} D:/uni/ava/CAD/MID/mux.v {1 {vlog -work work D:/uni/ava/CAD/MID/mux.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -19,12 +26,12 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	mux_2to1
 
-} {} {}} D:/uni/ava/CAD/MID/mul.v {1 {vlog -work work D:/uni/ava/CAD/MID/mul.v
+} {} {}} D:/uni/ava/CAD/MID/mul_coef.v {1 {vlog -work work D:/uni/ava/CAD/MID/mul_coef.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module fixed_point_multiplier_signed
+-- Compiling module fixed_point_multiplier_signed_coef
 
 Top level modules:
-	fixed_point_multiplier_signed
+	fixed_point_multiplier_signed_coef
 
 } {} {}} D:/uni/ava/CAD/MID/datapath.v {1 {vlog -work work D:/uni/ava/CAD/MID/datapath.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -47,13 +54,6 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	controller
 
-} {} {}} D:/uni/ava/CAD/MID/top_module.v {1 {vlog -work work D:/uni/ava/CAD/MID/top_module.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module top_module
-
-Top level modules:
-	top_module
-
 } {} {}} D:/uni/ava/CAD/MID/adder.v {1 {vlog -work work D:/uni/ava/CAD/MID/adder.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module fixed_point_adder_signed
@@ -62,5 +62,12 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	fixed_point_adder_signed
 	one_adder
+
+} {} {}} D:/uni/ava/CAD/MID/top_module.v {1 {vlog -work work D:/uni/ava/CAD/MID/top_module.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module top_module
+
+Top level modules:
+	top_module
 
 } {} {}}

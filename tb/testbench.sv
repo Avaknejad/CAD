@@ -14,7 +14,7 @@ module testbench ();
 
     integer valid_cnt = 0;
 
-    wire signed [7: 0] Y;
+    wire signed [OUTPUT_WIDTH-1: 0] Y;
     wire valid, ready, overflow, error;
     reg [OUTPUT_WIDTH : 0] outputs [0 : 5 * 20 - 1];
     always @(clk)begin
@@ -29,7 +29,7 @@ module testbench ();
             //remove this if not necessary
             valid_cnt = valid_cnt + 1;
             if (valid_cnt >= 1 ? ready : 1) begin
-                //if ({overflow, Y} == outputs[j])
+                if ({overflow, Y} == outputs[j])
                     true_ = true_ + 1;
                 j++;
             end

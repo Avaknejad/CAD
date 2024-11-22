@@ -4,214 +4,233 @@ K3
 cModel Technology
 Z0 dD:\uni\term8\core\CA4\code
 vcomparator
-Z1 IEKci?Vl>7:C>aj9V<<F_:1
-Z2 V1UcnbI@]iGRALnzjiSZ7T2
-Z3 dD:\uni\ava\CAD\sim
-Z4 w1732268307
-Z5 8D:/uni/ava/CAD/MID/comp.v
-Z6 FD:/uni/ava/CAD/MID/comp.v
+Z1 !s100 34ld6GZM0[4Ya7=AI482Z1
+Z2 IEKci?Vl>7:C>aj9V<<F_:1
+Z3 V1UcnbI@]iGRALnzjiSZ7T2
+Z4 dD:\uni\ava\CAD\sim
+Z5 w1732268307
+Z6 8D:/uni/ava/CAD/MID/comp.v
+Z7 FD:/uni/ava/CAD/MID/comp.v
 L0 1
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
-Z9 !s100 34ld6GZM0[4Ya7=AI482Z1
-Z10 !s108 1732268547.655000
-Z11 !s107 D:/uni/ava/CAD/MID/comp.v|
-Z12 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/comp.v|
+Z9 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/comp.v|
+Z10 o-work work -O0
+Z11 !s108 1732272985.904000
+Z12 !s107 D:/uni/ava/CAD/MID/comp.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vcontroller
-Z13 I[4k3jCzmf4RcA=MLaBV]51
-Z14 VQi?joGgWnnIQ_9bkGg0fE0
-R3
-Z15 w1732269831
-Z16 8D:/uni/ava/CAD/MID/controller.v
-Z17 FD:/uni/ava/CAD/MID/controller.v
+Z13 !s100 Tco[Y3Mf>=K^`J5WHT=D:3
+Z14 I[4k3jCzmf4RcA=MLaBV]51
+Z15 VQi?joGgWnnIQ_9bkGg0fE0
+R4
+Z16 w1732269831
+Z17 8D:/uni/ava/CAD/MID/controller.v
+Z18 FD:/uni/ava/CAD/MID/controller.v
 L0 4
-R7
+R8
 r1
 31
-Z18 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/controller.v|
-R8
-Z19 !s100 Tco[Y3Mf>=K^`J5WHT=D:3
-Z20 !s108 1732269841.758000
+Z19 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/controller.v|
+R10
+Z20 !s108 1732272986.094000
 Z21 !s107 D:/uni/ava/CAD/MID/controller.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vdatapath
-Z22 IgC1278]NB4TG?Nc3]PA`h3
-Z23 VUWn1X5W8P3d36^O]a;7bk3
-R3
+Z22 IZ6_E9[IR5kieSjFkgQGG;0
+Z23 VNM_SgG9^BPHZTSFYm<6`b1
 R4
-Z24 8D:/uni/ava/CAD/MID/datapath.v
-Z25 FD:/uni/ava/CAD/MID/datapath.v
+Z24 w1732273993
+Z25 8D:/uni/ava/CAD/MID/datapath.v
+Z26 FD:/uni/ava/CAD/MID/datapath.v
 L0 1
-R7
+R8
 r1
 31
-R8
-Z26 !s100 ;bUBP<o4Hg7W:CPoz?EYe1
-Z27 !s108 1732268548.295000
-Z28 !s107 D:/uni/ava/CAD/MID/datapath.v|
-Z29 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/datapath.v|
+Z27 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/datapath.v|
+R10
 !i10b 1
+Z28 !s100 TLII:@;6e<UgNYK^Jb2CD3
 !s85 0
+Z29 !s108 1732273999.458000
+Z30 !s107 D:/uni/ava/CAD/MID/datapath.v|
 !s101 -O0
 vfixed_point_adder_signed
-Z30 Io36czg];Tj=3?Id:GTPZa3
-Z31 VB3_iMX@0a;m`@[a30aQf=0
-R3
+Z31 !s100 8ON4LXX8N;Eb_Jk9HmPJ22
+Z32 I:IdSmj091Z>Y8Tz8QMRi_2
+Z33 V8oWefzK5FBU[S4O=@K?cb1
 R4
-Z32 8D:/uni/ava/CAD/MID/adder.v
-Z33 FD:/uni/ava/CAD/MID/adder.v
+Z34 w1732271473
+Z35 8D:/uni/ava/CAD/MID/adder.v
+Z36 FD:/uni/ava/CAD/MID/adder.v
 L0 1
-R7
+R8
 r1
 31
-Z34 !s108 1732268547.246000
-Z35 !s107 D:/uni/ava/CAD/MID/adder.v|
-Z36 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/adder.v|
-R8
-Z37 !s100 LGOJEn8<b3[dT5V>]ZHh41
+Z37 !s108 1732272985.634000
+Z38 !s107 D:/uni/ava/CAD/MID/adder.v|
+Z39 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/adder.v|
+R10
 !i10b 1
 !s85 0
 !s101 -O0
 vfixed_point_multiplier_signed
-Z38 IE[90m0KM5FBgglOSN?zJd2
-Z39 VH]4nW<gK5oQSUNok]99bV1
-R3
+Z40 !s100 ^7BTiRM@[cmWdm9P=l3G]3
+Z41 I6bikefJ4Yc]@gjIVGbPzn1
+Z42 Vafo<LTU3?[[?c6Kd52kPN2
 R4
-Z40 8D:/uni/ava/CAD/MID/mul.v
-Z41 FD:/uni/ava/CAD/MID/mul.v
+Z43 w1732271287
+Z44 8D:/uni/ava/CAD/MID/mul.v
+Z45 FD:/uni/ava/CAD/MID/mul.v
 L0 1
-R7
+R8
 r1
 31
+Z46 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/mul.v|
+R10
+Z47 !s108 1732272986.533000
+Z48 !s107 D:/uni/ava/CAD/MID/mul.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfixed_point_multiplier_signed_coef
+Z49 !s100 ?Nm0@?RK2D6[TmQo8eUUk0
+Z50 I86jL;jogeHgB?`;h1K=3^3
+Z51 VTkSeJ<CHn>a?fH5eDPbgO2
+R4
+Z52 w1732271503
+Z53 8D:/uni/ava/CAD/MID/mul_coef.v
+Z54 FD:/uni/ava/CAD/MID/mul_coef.v
+L0 1
 R8
-Z42 !s100 nL>m?^Qa:W_AF;QL6Pc]E1
-Z43 !s108 1732268548.775000
-Z44 !s107 D:/uni/ava/CAD/MID/mul.v|
-Z45 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/mul.v|
+r1
+31
+Z55 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/mul_coef.v|
+R10
+Z56 !s108 1732272987.380000
+Z57 !s107 D:/uni/ava/CAD/MID/mul_coef.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vinput_reg
-Z46 I>GJ_??J2D<i<BWijKGECH2
-Z47 V_Hhf3aO3m1=_W2Gd`9^9D0
-R3
+Z58 !s100 nQU>BBBhUa2Q6?f7oCGCk1
+Z59 I>GJ_??J2D<i<BWijKGECH2
+Z60 V_Hhf3aO3m1=_W2Gd`9^9D0
 R4
-Z48 8D:/uni/ava/CAD/MID/input_reg.v
-Z49 FD:/uni/ava/CAD/MID/input_reg.v
+R5
+Z61 8D:/uni/ava/CAD/MID/input_reg.v
+Z62 FD:/uni/ava/CAD/MID/input_reg.v
 L0 1
-R7
+R8
 r1
 31
-R8
-Z50 !s100 nQU>BBBhUa2Q6?f7oCGCk1
-Z51 !s108 1732268548.515000
-Z52 !s107 D:/uni/ava/CAD/MID/input_reg.v|
-Z53 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/input_reg.v|
+Z63 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/input_reg.v|
+R10
+Z64 !s108 1732272986.349000
+Z65 !s107 D:/uni/ava/CAD/MID/input_reg.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vmux_2to1
-Z54 IJob56DnlaARJBPC>A^nWT0
-Z55 VXG_Egi:NQZF>i1G2U;2`43
-R3
+Z66 !s100 aCibK0F`YRSn31[D9hS:W0
+Z67 IHXZ;bQAY:O@4zdIYMNzK43
+Z68 V:OfLOVDbgMX>]YY`hj1T81
 R4
-Z56 8D:/uni/ava/CAD/MID/mux.v
-Z57 FD:/uni/ava/CAD/MID/mux.v
+Z69 w1732272921
+Z70 8D:/uni/ava/CAD/MID/mux.v
+Z71 FD:/uni/ava/CAD/MID/mux.v
 L0 1
-R7
+R8
 r1
 31
-R8
-Z58 !s100 <3Ugl:F72zDjBYEgf57`[1
-Z59 !s108 1732268548.995000
-Z60 !s107 D:/uni/ava/CAD/MID/mux.v|
-Z61 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/mux.v|
+Z72 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/mux.v|
+R10
+Z73 !s108 1732272986.706000
+Z74 !s107 D:/uni/ava/CAD/MID/mux.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vone_adder
-Z62 IEi1MAnZIP33L_IkZQ<6]f2
-Z63 V^?]n72Eo7JYM_bd9bga7>0
-R3
+Z75 !s100 k1Wbaok0XQ:X5=nYC[dTI0
+Z76 IEi1MAnZIP33L_IkZQ<6]f2
+Z77 V^?]n72Eo7JYM_bd9bga7>0
 R4
-R32
-R33
-L0 21
-R7
-r1
-31
 R34
 R35
 R36
+L0 21
 R8
-Z64 !s100 k1Wbaok0XQ:X5=nYC[dTI0
+r1
+31
+R37
+R38
+R39
+R10
 !i10b 1
 !s85 0
 !s101 -O0
 vregister
-Z65 I<^ciIdb>Wl7HgQ^TVa5hg1
-Z66 V[B_NQXKQ]coXN`;gm2_nZ3
-R3
+Z78 !s100 FbPa=l?TXR8nR?eUHRNJb1
+Z79 I<^ciIdb>Wl7HgQ^TVa5hg1
+Z80 V[B_NQXKQ]coXN`;gm2_nZ3
 R4
-Z67 8D:/uni/ava/CAD/MID/rej.v
-Z68 FD:/uni/ava/CAD/MID/rej.v
+R5
+Z81 8D:/uni/ava/CAD/MID/rej.v
+Z82 FD:/uni/ava/CAD/MID/rej.v
 L0 1
-R7
+R8
 r1
 31
-R8
-Z69 !s100 FbPa=l?TXR8nR?eUHRNJb1
-Z70 !s108 1732268549.265000
-Z71 !s107 D:/uni/ava/CAD/MID/rej.v|
-Z72 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/rej.v|
+Z83 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/rej.v|
+R10
+Z84 !s108 1732272986.912000
+Z85 !s107 D:/uni/ava/CAD/MID/rej.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vtestbench
-Z73 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z86 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
 !i10b 1
-!s100 zi9Vg8;O@m]XbJXN1R@YU1
-I83Kd=dY0<Eg5LC875PTjd1
-Z74 Vo@Hhg2kL_B=>1B7XC@@3d2
-Z75 !s105 testbench_sv_unit
+!s100 95UX1CehGG7bnz@:`8nb<3
+ICQefY1Q@B3aY9Bm6;l=c>1
+Z87 Vo@Hhg2kL_B=>1B7XC@@3d2
+Z88 !s105 testbench_sv_unit
 S1
-R3
-w1732270236
-Z76 8D:/uni/ava/CAD/tb/testbench.sv
-Z77 FD:/uni/ava/CAD/tb/testbench.sv
+R4
+w1732274034
+Z89 8D:/uni/ava/CAD/tb/testbench.sv
+Z90 FD:/uni/ava/CAD/tb/testbench.sv
 L0 7
-R7
+R8
 r1
 !s85 0
 31
-!s108 1732270246.313000
+!s108 1732274043.102000
 !s107 D:/uni/ava/CAD/tb/testbench.sv|
-Z78 !s90 -reportprogress|300|-work|work|-sv|D:/uni/ava/CAD/tb/testbench.sv|
+Z91 !s90 -reportprogress|300|-work|work|-sv|D:/uni/ava/CAD/tb/testbench.sv|
 !s101 -O0
-Z79 o-work work -sv -O0
+Z92 o-work work -sv -O0
 vtop_module
-Z80 INmI4fGIL_N_4H4CC]NFRl0
-Z81 VSh4lOm`E9J8YMLh=09ZPO3
-R3
+Z93 !s100 Onn6H51nbmVCe1F>b[O141
+Z94 IXdlWN1hDKNHQg>aQPcY4U2
+Z95 V<WCMQ4@ode270VYLm04C:0
 R4
-Z82 8D:/uni/ava/CAD/MID/top_module.v
-Z83 FD:/uni/ava/CAD/MID/top_module.v
+Z96 w1732272286
+Z97 8D:/uni/ava/CAD/MID/top_module.v
+Z98 FD:/uni/ava/CAD/MID/top_module.v
 L0 1
-R7
+R8
 r1
 31
-R8
-Z84 !s100 [meGN@k]M@8o]0[OI=`YR3
-Z85 !s108 1732268549.654000
-Z86 !s107 D:/uni/ava/CAD/MID/top_module.v|
-Z87 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/top_module.v|
+Z99 !s90 -reportprogress|300|-work|work|D:/uni/ava/CAD/MID/top_module.v|
+R10
+Z100 !s108 1732272987.112000
+Z101 !s107 D:/uni/ava/CAD/MID/top_module.v|
 !i10b 1
 !s85 0
 !s101 -O0

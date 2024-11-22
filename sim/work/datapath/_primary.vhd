@@ -9,7 +9,7 @@ entity datapath is
         x               : in     vl_logic_vector(7 downto 0);
         n               : in     vl_logic_vector(2 downto 0);
         controller_inuse: in     vl_logic;
-        result          : out    vl_logic_vector(7 downto 0);
+        result          : out    vl_logic_vector(31 downto 0);
         valid           : out    vl_logic;
         ready           : out    vl_logic;
         ov_flag         : out    vl_logic

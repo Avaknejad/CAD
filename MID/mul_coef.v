@@ -1,12 +1,12 @@
-module fixed_point_multiplier_signed (
-    input  signed [7:0] a, 
-    input  signed [15:0] b, 
-    output signed [23:0] result, 
+module fixed_point_multiplier_signed_coef (
+    input  signed [23:0] a, 
+    input  signed [7:0] b, 
+    output signed [31:0] result, 
     output reg ov
 );
 
 
-    wire signed [23:0] full_product;
+    wire signed [31:0] full_product;
     assign full_product = a * b;
 
     assign result = full_product;
